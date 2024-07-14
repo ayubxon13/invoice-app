@@ -2,7 +2,7 @@ import {createAsyncThunk, createSlice} from "@reduxjs/toolkit"
 import {toast} from "sonner"
 import {allInterface} from "../interface/interfaceData"
 
-const BASE_URL: string = "https://invoicesdata.onrender.com/data"
+const BASE_URL: string = "https://662a80f267df268010a42f40.mockapi.io/data"
 
 export const fetchData = createAsyncThunk(
   "invoices/fetchData",
